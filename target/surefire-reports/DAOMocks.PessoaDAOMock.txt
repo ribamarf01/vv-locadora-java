@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: DAOMocks.PessoaDAOMock
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.109 s <<< FAILURE! - in DAOMocks.PessoaDAOMock
+adicionaPessoaTest  Time elapsed: 0.013 s  <<< ERROR!
+java.lang.ExceptionInInitializerError
+	at DAOMocks.PessoaDAOMock.<init>(PessoaDAOMock.java:21)
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make protected final java.lang.Class java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain) throws java.lang.ClassFormatError accessible: module java.base does not "opens java.lang" to unnamed module @42e26948
+	at DAOMocks.PessoaDAOMock.<init>(PessoaDAOMock.java:21)
+

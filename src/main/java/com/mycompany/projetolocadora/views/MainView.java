@@ -802,7 +802,7 @@ public class MainView extends javax.swing.JFrame {
                 } else {
                     res = JOptionPane.showConfirmDialog(this, "Deseja quitar esse aluguel? \nValor: " 
                             + a.getValorAluguel() + "\nMulta: " + a.getValorMulta() + "\nTotal: " 
-                            + a.getValorMulta() + a.getValorAluguel());
+                            + (a.getValorMulta() + a.getValorAluguel()) );
                 }
                 
                 if(res == JOptionPane.YES_OPTION) {
